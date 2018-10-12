@@ -9,10 +9,11 @@ import 'bootstrap';
 import '../styles/index.scss';
 
 //import your own components
-import {Home} from './component/home.jsx';
+//import {Home} from './component/home.jsx';
+import {App} from './component/app.jsx';
 
 //render your react application
 ReactDOM.render(
-    <Home />,
+    <App />,
     document.querySelector('#app')
 );
